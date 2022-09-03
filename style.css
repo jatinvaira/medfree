@@ -4,13 +4,13 @@ body {
 ul {
     list-style-type: none;
     margin: 0px;
-    padding: -200;
+    padding: 0;
     overflow: hidden;
     background-color: #64126b;
   }
   
   li {
-    float: left;
+    float: right;
   }
   
   li a {
