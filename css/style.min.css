@@ -475,16 +475,18 @@ section {
 .grid-item {
   margin-bottom: 20px;
   border-radius: 5px;
+  margin-left: 360px;
   overflow: hidden; }
   .grid-item:hover .grid-info {
     top: 50%;
     opacity: 1; }
 
+    
 .grid-item-wrapper:before {
   content: '';
   display: block;
   background: rgba(255, 255, 255, 0.7);
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
   bottom: 0;
